@@ -6,6 +6,7 @@ All sensitive information has been obfuscated.
 
 
 ### 1. Strategy Backtest
+This folder collects strategy backtesting examples.
 
 #### a. GrowthStocksStrategy.py
       Description: Pick stocks with strong growth indicators. 
@@ -28,7 +29,7 @@ All sensitive information has been obfuscated.
       
       
 ### 2. Data Process and Automation Needs
-This file collects codes that are developed to meet specifc needs in data procession and analysis.
+This folder collects codes that are developed to meet specifc needs in data procession and analysis.
 
 #### a. AutomaticDownload.py
       Description: Automatically download attachments from the mailbox in a time series.
@@ -43,7 +44,7 @@ This file collects codes that are developed to meet specifc needs in data proces
       Description: A risk control model in a quotation procedure according to risk management requirements.
 
 ### 3. Option Pricing
-This file collects code examples in option pricing work.
+This folder collects code examples in option pricing work.
 
 #### a. VolatilityGet.py
       Description: Calculate 1m/3m/6m/12m/24m/Garch volatiities.
@@ -57,6 +58,7 @@ This file collects code examples in option pricing work.
                    The model can be used to calculate option price of different snowball structures, e.g. standard, float rebate, step down, etc.
 
 ### 4. Snowball
+This folder collects income analysis models with snowball option.
 
 #### a. HistoricalTest_Snowball.py
       Description: Generate historical income distribution of standard snowball structure.
