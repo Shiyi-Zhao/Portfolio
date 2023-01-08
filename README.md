@@ -5,9 +5,9 @@ This repository collects some programming applications of financial practices I 
 All sensitive information has been obfuscated.
 
 
-##1. Strategy Backtest
+## 1. Strategy Backtest
 
-###a. GrowthStocksStrategy.py
+### a. GrowthStocksStrategy.py
       Description: Pick stocks with strong growth indicators. 
       
       Basic filter:
@@ -27,42 +27,42 @@ All sensitive information has been obfuscated.
       2018-5-4 to 2022-5-4 excess annual return over 15.5%.
       
       
-##2. Data Process and Automation Needs
+## 2. Data Process and Automation Needs
 This file collects codes that are developed to meet specifc needs in data procession and analysis.
 
-###a. AutomaticDownload.py
+### a. AutomaticDownload.py
       Description: Automatically download attachments from the mailbox in a time series.
       
-###b. PlacementExtraction.py
+### b. PlacementExtraction.py
       Description: Process raw data sheets from Wind Database and extract specific placement information.
       
-###c. ProcessExcel.py
+### c. ProcessExcel.py
       Description: Process excel file, and split each into two according to specific requirements.
 
-###d. QuotationCheck.py
+### d. QuotationCheck.py
       Description: A risk control model in a quotation procedure according to risk management requirements.
 
-##3. Option Pricing
+## 3. Option Pricing
 This file collects code examples in option pricing work.
 
-###a. VolatilityGet.py
+### a. VolatilityGet.py
       Description: Calculate 1m/3m/6m/12m/24m/Garch volatiities.
       
-###b. TrinomialTree_Snowball.py
+### b. TrinomialTree_Snowball.py
       Description: Snowball option pricing using trinomial tree model.
                    The model can be used to calculate option price of different snowball structures, e.g. standard, step down, snowball with floor, etc.
                    
-###c. FloatRebate_MonteCarlo_Snowball.py
+### c. FloatRebate_MonteCarlo_Snowball.py
       Description: Snowball option pricing using MonteCarlo simulations.
                    The model can be used to calculate option price of different snowball structures, e.g. standard, float rebate, step down, etc.
 
-##4. Snowball
+## 4. Snowball
 
-###a. HistoricalTest_Snowball.py
+### a. HistoricalTest_Snowball.py
       Description: Generate historical income distribution of standard snowball structure.
       
-###b. MonteCarlo_Snowball.py
+### b. MonteCarlo_Snowball.py
       Description: Simulate income distribution of standard snowball structure by Monte Carlo Methods.
       
-###c. Winrate_Snowball.py
+### c. Winrate_Snowball.py
       Description: Calculate historical win rate of standard snowball structure.
