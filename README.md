@@ -40,7 +40,7 @@ This folder collects codes that are developed to meet specific needs in data pro
 #### c. ProcessExcel.py
       Description: Process Excel file, and split each into two according to specific requirements.
 
-#### d. QuotationCheck.py
+#### d. QuotationCheck.py 
       Description: A risk control model in a quotation procedure according to risk management requirements.
 
 ### 3. Option Pricing
@@ -51,11 +51,13 @@ This folder collects code examples in option pricing work.
       
 #### b. TrinomialTree_Snowball.py
       Description: Snowball option pricing using the trinomial tree model.
-                   The model can be used to calculate the option price of different snowball structures, e.g. standard, step down, snowball with floor, etc.
+                   The model can be used to calculate the option price of different snowball structures, 
+                   e.g. standard, step down, snowball with floor, etc.
                    
 #### c. FloatRebate_MonteCarlo_Snowball.py
       Description: Snowball option pricing using Monte Carlo simulations.
-                   The model can be used to calculate the option price of different snowball structures, e.g. standard, float rebate, step down, etc.
+                   The model can be used to calculate the option price of different snowball structures, 
+                   e.g. standard, float rebate, step down, etc.
 
 ### 4. Snowball
 This folder collects income analysis models with snowball option.
