@@ -16,11 +16,11 @@ This folder collects strategy backtesting examples.
       2. deducted profit/net profit > 50%
       3. roe > 0.01
       4. currentratio > -1
-      5. trade volumne top 90% in the past half year
+      5. trade volume top 90% in the past half year
       6. not ST
       
       Scoring:
-      1. change positions during reporting period, as the return in the past month could represent the market reaction.
+      1. change positions during the reporting period, as the return in the past month could represent the market reaction.
       2. analyst expectation change
       3. analyst agreed expected growth rate
       
@@ -29,16 +29,16 @@ This folder collects strategy backtesting examples.
       
       
 ### 2. Data Process and Automation Needs
-This folder collects codes that are developed to meet specifc needs in data procession and analysis.
+This folder collects codes that are developed to meet specific needs in data processing and analysis.
 
 #### a. AutomaticDownload.py
       Description: Automatically download attachments from the mailbox in a time series.
       
 #### b. PlacementExtraction.py
-      Description: Process raw data sheets from Wind Database and extract specific placement information.
+      Description: Process raw data sheets from the Wind Database and extract specific placement information.
       
 #### c. ProcessExcel.py
-      Description: Process excel file, and split each into two according to specific requirements.
+      Description: Process Excel file, and split each into two according to specific requirements.
 
 #### d. QuotationCheck.py
       Description: A risk control model in a quotation procedure according to risk management requirements.
@@ -47,15 +47,15 @@ This folder collects codes that are developed to meet specifc needs in data proc
 This folder collects code examples in option pricing work.
 
 #### a. VolatilityGet.py
-      Description: Calculate 1m/3m/6m/12m/24m/Garch volatiities.
+      Description: Calculate 1m/3m/6m/12m/24m/Garch volatilities.
       
 #### b. TrinomialTree_Snowball.py
-      Description: Snowball option pricing using trinomial tree model.
-                   The model can be used to calculate option price of different snowball structures, e.g. standard, step down, snowball with floor, etc.
+      Description: Snowball option pricing using the trinomial tree model.
+                   The model can be used to calculate the option price of different snowball structures, e.g. standard, step down, snowball with floor, etc.
                    
 #### c. FloatRebate_MonteCarlo_Snowball.py
-      Description: Snowball option pricing using MonteCarlo simulations.
-                   The model can be used to calculate option price of different snowball structures, e.g. standard, float rebate, step down, etc.
+      Description: Snowball option pricing using Monte Carlo simulations.
+                   The model can be used to calculate the option price of different snowball structures, e.g. standard, float rebate, step down, etc.
 
 ### 4. Snowball
 This folder collects income analysis models with snowball option.
